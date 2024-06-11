@@ -1,0 +1,44 @@
+/* CSS */
+.navbar {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-left: 1rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .search-form {
+    display: flex;
+  }
+  
+  .search-form input[type="search"] {
+    margin-right: 0.5rem;
+  }
+  
+  .search-form button {
+    cursor: pointer;
+  }
+
+  #explore{
+    cursor: pointer;
+    margin-left: 0.5rem;
+    background-color: yellow;
+    
+  }
